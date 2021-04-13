@@ -40,6 +40,8 @@ Route::post('about-me', [\App\Http\Controllers\AboutmeController::class, 'aboutm
 Route::get('All-About', [\App\Http\Controllers\AboutmeController::class, 'allAbout'])->name('All-About');
 Route::get('status-update-about/{id}', [\App\Http\Controllers\AboutmeController::class, 'statusUpdate'])->name('status-update-about');
 Route::get('Delete-about/{id}', [\App\Http\Controllers\AboutmeController::class, 'DeleteImage'])->name('Delete-about');
+//==========================================
 
 //============My Skills=====================
+
 
